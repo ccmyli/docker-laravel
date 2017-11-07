@@ -188,7 +188,13 @@ services:
         - "${REDIS_PORT}:6379"
       networks:
         - backend
+### Networks Setup ############################################
 
+networks:
+  frontend:
+    driver: "bridge"
+  backend:
+    driver: "bridge"
 
 ### Volumes Setup #############################################
 
