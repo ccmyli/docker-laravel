@@ -1,2 +1,0 @@
-* * * * * laradock php /var/www/artisan schedule:run >> /dev/null 2>&1
-* * * * * laradock /var/www/crontab.sh >> /dev/null 2>&1
