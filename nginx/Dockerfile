@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM registry.cn-beijing.aliyuncs.com/opendcp/nginx
 
 MAINTAINER Mahmoud Zalt <mahmoud@zalt.me>
 
