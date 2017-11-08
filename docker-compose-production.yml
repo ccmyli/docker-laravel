@@ -109,11 +109,7 @@ services:
 ### PHP Worker Container #####################################
 
     php-worker:
-      build:
-        context: ./php-worker
-        dockerfile: "Dockerfile-${PHP_VERSION}"
-        args:
-          - INSTALL_PGSQL=${PHP_WORKER_INSTALL_PGSQL}
+      image: registry.cn-hangzhou.aliyuncs.com/xuzili/php-worker:php7.1
       volumes_from:
         - applications
       depends_on:
