@@ -18,7 +18,7 @@ docker-compose up -d nginx mysql redis php-fpm php-worker
 // 项目的路径
 APPLICATION=../www/lara-project
 
-// 数据文件存放的文职
+// 数据文件存放的文件
 DATA_SAVE_PATH=../www/mysql-data
 
 ```
